@@ -692,7 +692,15 @@ textarea.form-control {
 }
 
 @media (max-width: 480px) {
-
+	.navbar-custom .navbar-brand{
+		max-width: 250px;
+	}
+	.navbar{
+		min-height: 70px;
+	}
+	.navbar-nav{
+		margin: 7px 0;
+	}
 	h1 {
 		font-size: 34px;
 		letter-spacing: 3px;
